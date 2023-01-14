@@ -16,7 +16,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Message": "IWP Project Component"}
+    return {"Message": "VinHack 2023!!"}
 
 
 @app.post("/predict")
